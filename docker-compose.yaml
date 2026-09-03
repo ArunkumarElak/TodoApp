@@ -1,6 +1,7 @@
 services:
   backend:
     container_name: todo_server
+    build: ./server                 
     image: mugeshtn07071999/todo_server:v1.0
     ports:
       - "5000:5000"
@@ -11,6 +12,7 @@ services:
 
   frontend:
     container_name: todo_client
+    build: ./client                 
     image: mugeshtn07071999/todo_client:v1.0
     ports:
       - "5173:5173"
