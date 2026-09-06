@@ -1,4 +1,4 @@
-const apiUrl = "http://3.85.62.42:5000";
+const apiUrl = "http://52.206.132.137:5000";
 
 export const getTodos = () => {
     return fetch(apiUrl, {
