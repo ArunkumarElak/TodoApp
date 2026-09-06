@@ -18,7 +18,7 @@ const styles = {
     }
 }
 
-const apiUrl = "http://44.207.7.15:5000"
+const apiUrl = "http://3.85.62.42:5000"
 
 export const TodoList = () => {
     const [title, setTitle] = useState("")
